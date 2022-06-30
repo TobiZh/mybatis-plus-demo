@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderMovieSiteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderMovieSite">
+        <id column="id" property="id" />
+        <result column="movie_site" property="movie_site" />
+        <result column="data_time" property="data_time" />
+        <result column="play_count_raw" property="play_count_raw" />
+        <result column="play_count_corr" property="play_count_corr" />
+        <result column="play_count_incr" property="play_count_incr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

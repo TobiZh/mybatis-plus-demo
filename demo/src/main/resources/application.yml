@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      # 连接池名称
+      pool-name: MyHikariCP
+      connection-test-query: SELECT 1
+
+# mybatis-plus配置
+mybatis-plus:
+  configuration:
+    # 关闭下划线转驼峰 不然获取数据为null
+    map-underscore-to-camel-case: false

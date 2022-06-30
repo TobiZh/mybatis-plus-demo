@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderPrdhouseTiebaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderPrdhouseTieba">
+        <id column="id" property="id" />
+        <result column="prdhouse" property="prdhouse" />
+        <result column="data_time" property="data_time" />
+        <result column="topic_count_raw" property="topic_count_raw" />
+        <result column="topic_count_corr" property="topic_count_corr" />
+        <result column="topic_count_incr" property="topic_count_incr" />
+        <result column="post_count_raw" property="post_count_raw" />
+        <result column="post_count_corr" property="post_count_corr" />
+        <result column="post_count_incr" property="post_count_incr" />
+        <result column="member_count_raw" property="member_count_raw" />
+        <result column="member_count_corr" property="member_count_corr" />
+        <result column="member_count_incr" property="member_count_incr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

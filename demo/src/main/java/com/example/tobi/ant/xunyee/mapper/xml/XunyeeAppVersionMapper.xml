@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeeAppVersionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeeAppVersion">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="version_name" property="version_name" />
+        <result column="version_code" property="version_code" />
+        <result column="update_message" property="update_message" />
+        <result column="is_force" property="is_force" />
+        <result column="apk_download_url" property="apk_download_url" />
+        <result column="updated" property="updated" />
+        <result column="created" property="created" />
+        <result column="is_deleted" property="is_deleted" />
+    </resultMap>
+
+</mapper>

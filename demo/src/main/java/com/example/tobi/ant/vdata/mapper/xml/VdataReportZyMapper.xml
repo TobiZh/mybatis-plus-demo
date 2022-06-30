@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataReportZyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataReportZy">
+        <id column="id" property="id" />
+        <result column="zy" property="zy" />
+        <result column="data_time" property="data_time" />
+        <result column="baidutop_search_index_corr_sum" property="baidutop_search_index_corr_sum" />
+        <result column="baiduindex_search_index_pc_corr_sum" property="baiduindex_search_index_pc_corr_sum" />
+        <result column="baiduindex_search_index_mobile_corr_sum" property="baiduindex_search_index_mobile_corr_sum" />
+        <result column="sotrend_hot_value_corr_sum" property="sotrend_hot_value_corr_sum" />
+        <result column="sotrend_search_index_corr_sum" property="sotrend_search_index_corr_sum" />
+        <result column="sotrend_media_index_corr_sum" property="sotrend_media_index_corr_sum" />
+        <result column="buluo_post_count_incr_sum" property="buluo_post_count_incr_sum" />
+        <result column="buluo_focus_count_incr_sum" property="buluo_focus_count_incr_sum" />
+        <result column="douban_rating_corr_sum" property="douban_rating_corr_sum" />
+        <result column="douban_rating_count_incr_sum" property="douban_rating_count_incr_sum" />
+        <result column="douban_comment_count_incr_sum" property="douban_comment_count_incr_sum" />
+        <result column="douban_review_count_incr_sum" property="douban_review_count_incr_sum" />
+        <result column="tieba_topic_count_incr_sum" property="tieba_topic_count_incr_sum" />
+        <result column="tieba_post_count_incr_sum" property="tieba_post_count_incr_sum" />
+        <result column="tieba_member_count_incr_sum" property="tieba_member_count_incr_sum" />
+        <result column="weibo_follow_count_incr_sum" property="weibo_follow_count_incr_sum" />
+        <result column="weibo_fan_count_incr_sum" property="weibo_fan_count_incr_sum" />
+        <result column="weibo_post_count_incr_sum" property="weibo_post_count_incr_sum" />
+        <result column="youku_play_count_incr_sum" property="youku_play_count_incr_sum" />
+        <result column="tudou_play_count_incr_sum" property="tudou_play_count_incr_sum" />
+        <result column="letv_play_count_incr_sum" property="letv_play_count_incr_sum" />
+        <result column="mgtv_play_count_incr_sum" property="mgtv_play_count_incr_sum" />
+        <result column="iqiyi_play_count_incr_sum" property="iqiyi_play_count_incr_sum" />
+        <result column="sohu_play_count_incr_sum" property="sohu_play_count_incr_sum" />
+        <result column="qq_play_count_incr_sum" property="qq_play_count_incr_sum" />
+        <result column="iqiyi_hot_value_corr_sum" property="iqiyi_hot_value_corr_sum" />
+        <result column="youku_hot_value_corr_sum" property="youku_hot_value_corr_sum" />
+        <result column="huati_read_count_incr_sum" property="huati_read_count_incr_sum" />
+        <result column="huati_post_count_incr_sum" property="huati_post_count_incr_sum" />
+        <result column="huati_fan_count_incr_sum" property="huati_fan_count_incr_sum" />
+        <result column="report_play_count_incr_sum" property="report_play_count_incr_sum" />
+        <result column="report_1905_sum" property="report_1905_sum" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+        <result column="baidutop_search_index_rank_sum" property="baidutop_search_index_rank_sum" />
+        <result column="report_est_iqiyi_play_count_incr_sum" property="report_est_iqiyi_play_count_incr_sum" />
+        <result column="report_est_play_count_incr_sum" property="report_est_play_count_incr_sum" />
+        <result column="report_est_youku_play_count_incr_sum" property="report_est_youku_play_count_incr_sum" />
+        <result column="sotrend_rank_corr_sum" property="sotrend_rank_corr_sum" />
+    </resultMap>
+
+</mapper>

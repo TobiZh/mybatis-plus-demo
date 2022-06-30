@@ -1,0 +1,8 @@
+
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://local:5432/vdata?currentSchema=vdata&useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8&stringtype=unspecified
+    username: postgres
+    password: postgres

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeeVcuserBenefitPayorderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeeVcuserBenefitPayorder">
+        <id column="id" property="id" />
+        <result column="price" property="price" />
+        <result column="quantity" property="quantity" />
+        <result column="is_paid" property="is_paid" />
+        <result column="site" property="site" />
+        <result column="site_transaction_id" property="site_transaction_id" />
+        <result column="created" property="created" />
+        <result column="updated" property="updated" />
+        <result column="benefit_price_id" property="benefit_price_id" />
+        <result column="rel_order_id" property="rel_order_id" />
+        <result column="vcuser_id" property="vcuser_id" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderTeleplayYoukuMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderTeleplayYouku">
+        <id column="id" property="id" />
+        <result column="teleplay_site" property="teleplay_site" />
+        <result column="data_time" property="data_time" />
+        <result column="hot_value_raw" property="hot_value_raw" />
+        <result column="hot_value_corr" property="hot_value_corr" />
+        <result column="score_raw" property="score_raw" />
+        <result column="score_corr" property="score_corr" />
+        <result column="fan_count_raw" property="fan_count_raw" />
+        <result column="fan_count_corr" property="fan_count_corr" />
+        <result column="fan_count_incr" property="fan_count_incr" />
+        <result column="like_count_raw" property="like_count_raw" />
+        <result column="like_count_corr" property="like_count_corr" />
+        <result column="like_count_incr" property="like_count_incr" />
+        <result column="comment_count_raw" property="comment_count_raw" />
+        <result column="comment_count_corr" property="comment_count_corr" />
+        <result column="comment_count_incr" property="comment_count_incr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

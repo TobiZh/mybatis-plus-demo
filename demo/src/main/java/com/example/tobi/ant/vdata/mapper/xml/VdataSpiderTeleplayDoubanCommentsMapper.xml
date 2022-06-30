@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderTeleplayDoubanCommentsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderTeleplayDoubanComments">
+        <id column="id" property="id" />
+        <result column="teleplay" property="teleplay" />
+        <result column="cid" property="cid" />
+        <result column="author_raw" property="author_raw" />
+        <result column="author_corr" property="author_corr" />
+        <result column="rating_raw" property="rating_raw" />
+        <result column="rating_corr" property="rating_corr" />
+        <result column="comment_time_raw" property="comment_time_raw" />
+        <result column="comment_time_corr" property="comment_time_corr" />
+        <result column="vote_count_raw" property="vote_count_raw" />
+        <result column="vote_count_corr" property="vote_count_corr" />
+        <result column="short_raw" property="short_raw" />
+        <result column="short_corr" property="short_corr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

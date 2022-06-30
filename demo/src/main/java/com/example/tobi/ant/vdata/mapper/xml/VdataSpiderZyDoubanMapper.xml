@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderZyDoubanMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderZyDouban">
+        <id column="id" property="id" />
+        <result column="zy" property="zy" />
+        <result column="data_time" property="data_time" />
+        <result column="rating_raw" property="rating_raw" />
+        <result column="rating_corr" property="rating_corr" />
+        <result column="rating_count_raw" property="rating_count_raw" />
+        <result column="rating_count_corr" property="rating_count_corr" />
+        <result column="rating_count_incr" property="rating_count_incr" />
+        <result column="comment_count_raw" property="comment_count_raw" />
+        <result column="comment_count_corr" property="comment_count_corr" />
+        <result column="comment_count_incr" property="comment_count_incr" />
+        <result column="review_count_raw" property="review_count_raw" />
+        <result column="review_count_corr" property="review_count_corr" />
+        <result column="review_count_incr" property="review_count_incr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>

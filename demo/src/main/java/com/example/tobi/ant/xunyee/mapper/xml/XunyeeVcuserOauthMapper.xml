@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeeVcuserOauthMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeeVcuserOauth">
+        <id column="id" property="id" />
+        <result column="site" property="site" />
+        <result column="openid" property="openid" />
+        <result column="session_key" property="session_key" />
+        <result column="unionid" property="unionid" />
+        <result column="is_enabled" property="is_enabled" />
+        <result column="updated" property="updated" />
+        <result column="vcuser_id" property="vcuser_id" />
+        <result column="access_token" property="access_token" />
+        <result column="access_token_expires_in" property="access_token_expires_in" />
+        <result column="refresh_token" property="refresh_token" />
+        <result column="refresh_token_expires_in" property="refresh_token_expires_in" />
+        <result column="created" property="created" />
+    </resultMap>
+
+</mapper>

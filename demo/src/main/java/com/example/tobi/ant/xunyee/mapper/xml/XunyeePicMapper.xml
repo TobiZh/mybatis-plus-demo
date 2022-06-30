@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeePicMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeePic">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="memo" property="memo" />
+        <result column="pic" property="pic" />
+        <result column="sequence" property="sequence" />
+        <result column="url" property="url" />
+        <result column="start_time" property="start_time" />
+        <result column="finish_time" property="finish_time" />
+        <result column="type_id" property="type_id" />
+        <result column="is_enabled_5" property="is_enabled_5" />
+        <result column="is_enabled_6" property="is_enabled_6" />
+    </resultMap>
+
+</mapper>

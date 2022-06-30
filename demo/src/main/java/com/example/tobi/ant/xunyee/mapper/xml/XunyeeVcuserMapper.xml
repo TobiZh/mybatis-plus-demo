@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeeVcuserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeeVcuser">
+        <id column="id" property="id" />
+        <result column="nickname" property="nickname" />
+        <result column="sex" property="sex" />
+        <result column="avatar" property="avatar" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="is_enabled" property="is_enabled" />
+        <result column="updated" property="updated" />
+        <result column="wx_city" property="wx_city" />
+        <result column="wx_country" property="wx_country" />
+        <result column="wx_province" property="wx_province" />
+        <result column="created" property="created" />
+        <result column="wx_avatar" property="wx_avatar" />
+        <result column="wx_nickanme" property="wx_nickanme" />
+        <result column="status" property="status" />
+        <result column="cover" property="cover" />
+        <result column="bio" property="bio" />
+        <result column="lock_reason" property="lock_reason" />
+    </resultMap>
+
+</mapper>

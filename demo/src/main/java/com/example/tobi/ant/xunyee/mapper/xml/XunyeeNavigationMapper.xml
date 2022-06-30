@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.xunyee.mapper.XunyeeNavigationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.xunyee.entity.XunyeeNavigation">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="icon" property="icon" />
+        <result column="type" property="type" />
+        <result column="params" property="params" />
+        <result column="orderby" property="orderby" />
+        <result column="start_time" property="start_time" />
+        <result column="finish_time" property="finish_time" />
+        <result column="updated" property="updated" />
+        <result column="created" property="created" />
+        <result column="is_enabled_android" property="is_enabled_android" />
+        <result column="is_enabled_mini" property="is_enabled_mini" />
+        <result column="is_enabled_ios" property="is_enabled_ios" />
+        <result column="is_deleted" property="is_deleted" />
+        <result column="is_enabled" property="is_enabled" />
+    </resultMap>
+
+</mapper>

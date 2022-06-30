@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tobi.ant.vdata.mapper.VdataSpiderMovieMaoyanMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.tobi.ant.vdata.entity.VdataSpiderMovieMaoyan">
+        <id column="id" property="id" />
+        <result column="movie_maoyan" property="movie_maoyan" />
+        <result column="data_time" property="data_time" />
+        <result column="boxoffice_raw" property="boxoffice_raw" />
+        <result column="boxoffice_corr" property="boxoffice_corr" />
+        <result column="boxoffice_incr" property="boxoffice_incr" />
+        <result column="spider" property="spider" />
+        <result column="oper_user" property="oper_user" />
+        <result column="updated" property="updated" />
+    </resultMap>
+
+</mapper>
