@@ -7,20 +7,19 @@ import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
 import com.baomidou.mybatisplus.generator.config.querys.MySqlQuery;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import com.baomidou.mybatisplus.generator.keywords.MySqlKeyWordsHandler;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class MysqlGeneratorTest {
+public class MeicaiERPTest {
 
 
     @Test
     public void meicai(){
 
         DataSourceConfig.Builder DATA_SOURCE_CONFIG = new DataSourceConfig
-                .Builder("jdbc:mysql://sh-cdb-j2280ffm.sql.tencentcdb.com:62580/meicai?useSSL=false&serverTimezone=Asia/Shanghai", "root", "jianren@2020")
+                .Builder("jdbc:mysql://localhost:3306/meicai-erp?useSSL=false&serverTimezone=Asia/Shanghai", "root", "root")
                 .dbQuery(new MySqlQuery())
                 .keyWordsHandler(new MySqlKeyWordsHandler());
 
@@ -28,10 +27,10 @@ public class MysqlGeneratorTest {
         FastAutoGenerator.create(DATA_SOURCE_CONFIG)
                 .globalConfig(builder -> {
                     builder.author("tobi") // 设置作者
-                            .enableSwagger() // 开启 swagger 模式
+//                            .enableSwagger() // 开启 swagger 模式
                             .disableOpenDir()
                             .dateType(DateType.TIME_PACK)
-                            .outputDir("D:\\Project\\IdeaProjects\\meicai-xiansheng\\meicai-api\\src\\main\\java"); // 指定输出目录
+                            .outputDir("D:\\Project\\IdeaProjects\\meicai-xiansheng\\meicai-erp\\src\\main\\java"); // 指定输出目录
                 })
                 .packageConfig(builder -> {
                     builder.parent("com.shanghai.tobi") // 设置父包名
